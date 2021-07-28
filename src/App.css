@@ -1,0 +1,14 @@
+.m{
+  width: 300px;
+  height: 300px;
+  background-color: crimson;
+}
+
+.notConneted{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(109, 4, 4);
+}

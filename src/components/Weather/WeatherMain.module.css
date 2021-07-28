@@ -1,0 +1,157 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0px 20px 0px rgba(53, 49, 49, 0.6);
+}
+
+@media (max-width: 628px){
+    .container{
+        width: 100%;
+    }
+}
+
+.main{
+    width: 100%;
+    padding: 0 30px;
+    border-radius: 20px;
+    background: #123;
+}
+
+.search_box{
+    width: 100%;
+}
+
+.container input {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 30px 0;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgba(110, 106, 106, 0.6);
+    box-shadow: 0 2px 20px 10px rgba(255, 255,255, alpha);
+}
+
+input::placeholder{
+    color: #fff;
+    font-size: 20px;   
+}
+
+input:focus{
+    background-color: rgba(95, 95, 95, 0.4);
+    outline: none;
+    color: #fff;
+}
+
+
+
+.weatherbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.location{
+    color: #fff;
+    font-size: 25px;
+} 
+
+.date{
+    color: rgb(251, 244, 174);
+    font-size: 20px;
+} 
+
+.temp{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+.desc{
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.weather{
+    font-size: 40px;
+    color: snow;
+    font-weight: bolder;
+}
+
+.weather p{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.highLow{
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 728px) {
+    .highLow{
+        flex-direction: column;
+        
+    }
+}
+
+.high,.low{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cloud{
+    border: 1px solid whitesmoke;
+    display: inline;
+    width: 100px;
+    margin: 0;
+}
+
+.btn{
+
+    display: flex;
+    justify-content: space-around;
+    bottom: 10px;
+    text-align: center;
+    margin: 10px;
+}
+.btn button{
+    color: #123;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.graphBtn{
+    border: none;
+    background-color: #fff;
+    color: #123;
+    padding: 10px 20px;
+}
